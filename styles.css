@@ -1,14 +1,16 @@
-.desafio1 p {
-    color:rgb(255, 193, 7);
-    font-size: 50px;
+.desafio1 {
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ #lista1 ol{
+    list-style-type:georgian;
+    color: #1c37e1;
+    background-color: rgb(246, 156, 179);
 }
 
-#lista1 {
-    color:#85BDBF;
-    font-size: 40px;
-}
-
-#lista2 {
-    color: aquamarine;
-    font-size: 45px;
+#lista2 ul{
+    list-style-type:lower-roman;
+    color: #1c37e1;
+    background-color: rgb(246, 156, 179);
 }
