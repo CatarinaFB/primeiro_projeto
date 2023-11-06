@@ -1,5 +1,7 @@
-.notícia {
+div {
     background-color:bisque;
-    font-style: oblique;
-    font-size: 40px;
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    overflow: scroll;
 }

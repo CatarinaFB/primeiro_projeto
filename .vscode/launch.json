@@ -10,7 +10,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Iniciar o Chrome em relação a localhost",
-            "url": "file:///Users/catarinafreire/projetos-aula3/meu_repositorio/Aula9.html",
+            "url": "file:///Users/catarinafreire/projetos-aula3/meu_repositorio/Aula10.html",
             "webRoot": "${workspaceFolder}",
         }
     ]
