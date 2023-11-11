@@ -1,9 +1,15 @@
+@font-face {
+    font-family:"Roboto" ;
+    src: url();
+}
 header {
     background-color: #030712;
-    display: inline-block;
+    display: inline;
     text-align: left;
 }
 .header_logo {
-    font-family: roboto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9fafb;
+
     
 }
