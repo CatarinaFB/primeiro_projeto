@@ -1,17 +1,21 @@
 header {
-    background-color: #030712;
+    background: #030712;
     display: inline;
-    text-align: left;
+    place-content: left;
+
 }
 
 h1 {
     font-family:'Roboto', sans-serif;
     color:#f9fafb;  
+    font-weight: lighter;
+    display: inline;
 }
 span {
     font-family:'Roboto', sans-serif;
     color:#fbbf24;
-    font-weight: bold;   
+    font-weight: bold;  
+    display: inline;
 }
 
 .header_botão {
@@ -19,7 +23,15 @@ span {
     border-radius: .3em;
     border-color: #fbbf24;
     padding: 1em,1.5em, 1em, 1em;
+    display: inline;
     
+}
+
+.dropdown {
+display: block;
+color: #f9fafb;
+border-color: #fbbf24;
+list-style: none;
 }
 
 @font-face {
