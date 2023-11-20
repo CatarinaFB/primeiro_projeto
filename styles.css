@@ -1,16 +1,37 @@
-.desafio1 {
-    color: orange;
-    font-family: 'Times New Roman', Times, serif;
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box--degrade {
+    background-image: linear-gradient(to top left, light5%, yellow 10%);
+
+    background-image: radial-gradient(cyan 50%, rgb(136, 115, 239) 50%);
+ background-image: linear-gradient(90deg, rgb(219, 153, 153), rgb(138, 220, 123));
+}
+
+.box--transform {
+     transform: translateY(4%);
+     transform: rotate(20deg); 
+     transform: scale(2, 4) rotate(90deg);
+     transform: skew(20deg, 10deg)
+
+}
+
+box1--transition {
+    color: rgb(226, 243, 134);
+    height: 50px;
+    width: 50px;
+    transition: color 1s; 
+    1000ms
+      0.2 s = 200 ms
+    
+    transition: color 1s, height 2s;
  }
-
- #lista1 ol{
-    list-style-type:georgian;
-    color: #1c37e1;
-    background-color: rgb(246, 156, 179);
-}
-
-#lista2 ul{
-    list-style-type:lower-roman;
-    color: #1c37e1;
-    background-color: rgb(246, 156, 179);
-}
+ 
+ .box--transition:hover {
+     color: red;
+     height: 100px;
+     width: 100px;
+ }
