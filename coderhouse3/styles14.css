@@ -1,0 +1,102 @@
+.container {
+    display: grid;
+    grid-template-areas:
+     "t1 t1 t2 t2 t2"
+     "t1 t1 t3 t3 t4"
+     "t5 t5 t3 t3 t6";
+    grid-template-columns: 5fr 2fr 6fr 2fr 3fr;
+    grid-template-rows: repeat (3, 4fr); 
+    grid-gap: 20px;
+    width: auto;
+    height: auto;
+    border: 1cm;
+    text-align: center;
+    border-radius: 50%;
+   
+}
+.item1 {
+    background-color: rgb(63, 133, 76);
+    grid-area: t1;
+}
+.item2 {
+    background-color: rgba(43, 177, 226, 0.793);
+    grid-area: t2;
+}
+.item3 {
+    background-color: rgb(183, 71, 11);
+    grid-area: t3;
+}
+.item4 {
+    background-color: rgb(10, 50, 89);
+    grid-area: t4;
+}
+.item5 {
+    background-color: rgb(125, 12, 120);
+    grid-area: t5;
+}
+.item6 {
+    background-color: rgb(94, 86, 86);
+    grid-area: t6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grade {
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+    "header header"
+    "nav content"
+    "nav footer";
+    grid-template-rows: 12fr 28fr 8fr;
+    grid-template-columns: 8fr 14fr ;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(212, 78, 78);
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(6, 130, 89);
+}
+
+
+nav {
+    grid-area: nav;
+    background-color: rgb(100, 192, 120);
+}
+
+.content {
+    grid-area: content;
+    background-color: rgb(212, 155, 85);
+} */
